@@ -40,10 +40,10 @@ extern int errno;
 #  define AES_VERSION         (0x0001)
 #  define AES_ENCRYPTIONMODE  (0x03)
 
-#  include "aes.h"
-#  include "fileenc.h"
-#  include "prng.h"
-#  include "entropy.h"
+#  include "../aes/aes.h"
+#  include "../aes/fileenc.h"
+#  include "../aes/prng.h"
+#  include "../aes/entropy.h"
 #endif
 
 #ifndef NOCRYPT
